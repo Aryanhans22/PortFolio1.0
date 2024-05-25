@@ -24,13 +24,13 @@ function sendEmail() {
     "<br> Message: " +
     message;
 
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "dev.aryanaviral@gmail.com",
-    Password: "2AA3F0918845C3ADD6C57130A72F3C756EDD",
-    To: "dev.aryanaviral@gmail.com",
-    From: "dev.aryanaviral@gmail.com",
-    Subject: "New Contact Form Enquiry",
-    Body: body
-  }).then((message) => alert("Message send successfully!!"));
-}
+//   Email.send({
+//     Host: "smtp.elasticemail.com",
+//     Username: "dev.aryanaviral@gmail.com",
+//     Password: "2AA3F0918845C3ADD6C57130A72F3C756EDD",
+//     To: "dev.aryanaviral@gmail.com",
+//     From: "dev.aryanaviral@gmail.com",
+//     Subject: "New Contact Form Enquiry",
+//     Body: body
+//   }).then((message) => alert("Message send successfully!!"));
+// }
