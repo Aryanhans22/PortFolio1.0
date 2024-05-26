@@ -220,11 +220,11 @@
         </div>
       </div>
       <div class="contact-right" data-aos="zoom-in" data-aos-duration="1500">
-        <form   onsubmit="sendEmail(); reset(); return false;">
-          <input type="text" id="name" placeholder="Your Name" required />
-          <input type="email" id="email" placeholder="Enter Your Email Id" required />
-          <input type="text" id="phone" placeholder="Your Phone No." required />
-          <textarea name="message" id="message" rows="4" placeholder="Enter Your Message"></textarea>
+        <form   action="https://formsubmit.co/1ce3f06291321c98dd6eaef83d522ccd" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Enter Your Email Id" required />
+          <input type="tel" id="phone" maxlength="10" name="phone" placeholder="Your Phone No." required />
+          <textarea name="message" rows="4" placeholder="Enter Your Message"></textarea>
           <button type="submit">Send</button>
         </form>
       </div>
